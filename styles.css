@@ -24,7 +24,7 @@ header {
 .logo {
     width: 5px; /* Atur ukuran logo sesuai kebutuhan */
     height: auto; /* Memastikan proporsi logo tetap terjaga */
-    margin-right: 20px; /* Jarak antara logo dan judul */
+    margin-right: 5px; /* Jarak antara logo dan judul */
 }
 
 h1 {
