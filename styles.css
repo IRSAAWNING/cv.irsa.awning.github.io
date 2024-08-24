@@ -14,16 +14,27 @@ header {
     padding: 10px;
     text-align: right;
 }
+
 head {
     display: flex;
     align-items: none; /* Menyelaraskan logo dan judul secara vertikal */
     padding:10px;
     background-color: #f4f4f4;
+ 
 }
-
+title {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: right,up;
+    up: 0;
+    width: 100%;
+    vertical-align: middle;
+}   
 .logo {
     width: 5px; /* Atur ukuran logo sesuai kebutuhan */
-    height: 5; /* Memastikan proporsi logo tetap terjaga */
+    height: 5px; /* Memastikan proporsi logo tetap terjaga */
     margin-right: 5px; /* Jarak antara logo dan judul */
 }
 
