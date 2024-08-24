@@ -14,6 +14,23 @@ header {
     padding: 20px;
     text-align: center;
 }
+header {
+    display: flex;
+    align-items: center; /* Menyelaraskan logo dan judul secara vertikal */
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    width: 50px; /* Atur ukuran logo sesuai kebutuhan */
+    height: auto; /* Memastikan proporsi logo tetap terjaga */
+    margin-right: 20px; /* Jarak antara logo dan judul */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
 
 /* Mengatur gaya untuk section (bagian utama konten) */
 section {
