@@ -15,35 +15,36 @@ header {
     text-align: right;
 }
 
-head {
-    display: flex;
-    align-items: none; /* Menyelaraskan logo dan judul secara vertikal */
-    padding:10px;
-    background-color: #f4f4f4;
- 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-title {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: right,up;
-    up: 0;
-    width: 100%;
-    vertical-align: middle;
-}   
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
-    width: 5px; /* Atur ukuran logo sesuai kebutuhan */
-    height: 5px; /* Memastikan proporsi logo tetap terjaga */
-    margin-right: 5px; /* Jarak antara logo dan judul */
+    width: 50px; /* Atur ukuran logo sesuai kebutuhan */
+    height: auto;
+    margin-right: 10px; /* Jarak antara logo dan teks */
 }
 
 h1 {
-    font-size: 2em;
-    color:#fff;
-    display: inline-block; /* Mengatur elemen agar sejajar tanpa menambah ketinggian */
-    vertical-align: middle; /* Menyelaraskan elemen secara vertikal */
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
 }
+
 
 /* Mengatur gaya untuk section (bagian utama konten) */
 section {
