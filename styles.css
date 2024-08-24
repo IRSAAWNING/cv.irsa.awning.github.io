@@ -22,8 +22,8 @@ header {
 }
 
 .logo {
-    width: 50px; /* Atur ukuran logo sesuai kebutuhan */
-    height: auto; /* Memastikan proporsi logo tetap terjaga */
+    width: 15px; /* Atur ukuran logo sesuai kebutuhan */
+    height: 15px; /* Memastikan proporsi logo tetap terjaga */
     margin-right: 20px; /* Jarak antara logo dan judul */
 }
 
