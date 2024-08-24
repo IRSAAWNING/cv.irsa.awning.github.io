@@ -14,7 +14,7 @@ header {
     padding: 10px;
     text-align: right;
 }
-header {
+head {
     display: flex;
     align-items: none; /* Menyelaraskan logo dan judul secara vertikal */
     padding:10px;
