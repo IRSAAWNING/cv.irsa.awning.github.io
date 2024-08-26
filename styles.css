@@ -1,57 +1,126 @@
-/* Mengatur gaya dasar untuk seluruh halaman */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Mengatur gaya untuk header */
-header {
-    background-color: #333;
+/* Header Styles */
+#header {
+    background-image: url('https://github.com/IRSAAWNING/cv.irsa.awning.github.io/blob/main/dakota-roos-dSRhwPe6v9c-unsplash.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
-    padding: 20px;
+    text-align: center;
+    padding: 0 2em;
+}
+
+#header img {
+    max-height: 100px;
+    margin-bottom: 1em;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#header p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+#nav {
+    margin-top: 1em;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    margin: 0 10px;
+}
+
+#nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+#nav ul li a .icon {
+    margin-right: 5px;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+}
+
+#footer header {
     text-align: center;
 }
 
-/* Mengatur gaya untuk section (bagian utama konten) */
-section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
-/* Mengatur gaya untuk judul */
-h1, h2, h3 {
-    color: #333;
+#footer p {
+    font-size: 1em;
 }
 
-/* Mengatur gaya untuk paragraf */
-p {
-    line-height: 1.6;
+#footer form {
+    margin-top: 1em;
 }
 
-/* Mengatur gaya untuk daftar (list) */
-ul {
-    list-style-type: none;
+#footer .form-button-submit {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#footer .icons {
+    list-style: none;
     padding: 0;
 }
 
-ul li {
-    margin-bottom: 10px;
+#footer .icons li {
+    margin-bottom: 1em;
 }
 
-/* Mengatur gaya untuk footer */
-footer {
-    background-color: #333;
-    color: #fff;
+#footer .icons .icon a {
+    color: #333;
+    text-decoration: none;
+}
+
+#footer #copyright {
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+}
+
+#footer #copyright ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer #copyright ul li {
+    display: inline;
+    margin-right: 10px;
 }
