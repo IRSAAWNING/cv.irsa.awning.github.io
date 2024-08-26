@@ -1935,6 +1935,11 @@ input, select, textarea {
 			font-size: 0.85em;
 			letter-spacing: 3px;
 			text-align: center;
+		  body {
+        background-image: url('https://github.com/IRSAAWNING/cv.irsa.awning.github.io/blob/main/dakota-roos-dSRhwPe6v9c-unsplash.jpg?raw=true');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;	
 		}
 
 /* Nav */
