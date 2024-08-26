@@ -2717,24 +2717,3 @@ input, select, textarea {
 				}
 
 	}
-/* CSS untuk ikon */
-.icons .icon {
-    font-size: 1.5em; /* Ukuran ikon */
-    color: #333; /* Warna ikon default */
-    margin-bottom: 1em; /* Jarak bawah ikon */
-}
-
-.icons .icon a {
-    color: #333; /* Warna teks default */
-    text-decoration: none; /* Hapus garis bawah pada link */
-}
-
-.icons .icon a:hover {
-    color: #ed786a; /* Warna teks saat hover */
-    text-decoration: underline; /* Garis bawah saat hover */
-}
-
-.icons .icon.fa-whatsapp::before {
-    content: "\f232"; /* Menggunakan Unicode untuk ikon WhatsApp */
-}
-
