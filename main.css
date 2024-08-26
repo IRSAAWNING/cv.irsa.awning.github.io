@@ -2713,3 +2713,43 @@ input, select, textarea {
 				}
 
 	}
+
+/* Main Content Styles */
+#main-content {
+    padding: 2em 0;
+    background-color: #f5f5f5;
+}
+
+#services {
+    padding: 2em 0;
+}
+
+#services .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+#services .col-6 {
+    flex: 1;
+    max-width: 50%;
+}
+
+#services img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#services h2 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+#services p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0;
+}
