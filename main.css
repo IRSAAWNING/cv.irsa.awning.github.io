@@ -1480,51 +1480,56 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
-		-moz-transition: opacity 0.25s ease-in-out;
-		-webkit-transition: opacity 0.25s ease-in-out;
-		-ms-transition: opacity 0.25s ease-in-out;
-		transition: opacity 0.25s ease-in-out;
-		display: inline-block;
-		border: solid 6px #ebebeb !important;
-	}
+.image {
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    display: inline-block;
+    border: solid 6px #ebebeb !important;
+    overflow: hidden; /* Menyembunyikan bagian gambar yang melebihi kontainer */
+    height: 200px; /* Atur tinggi yang diinginkan */
+}
 
-		.image:hover {
-			opacity: 0.9;
-		}
+.image:hover {
+    opacity: 0.9;
+}
 
-		.image img {
-			display: block;
-			width: 100%;
-		}
+.image img {
+    display: block;
+    width: 100%; /* Menyesuaikan lebar gambar dengan kontainer */
+    height: 100%; /* Menyesuaikan tinggi gambar dengan kontainer */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
+}
 
-		.image.fit {
-			display: block;
-			width: 100%;
-		}
+.image.fit {
+    display: block;
+    width: 100%;
+}
 
-		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 3.5em 0;
-		}
+.image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 3.5em 0;
+}
 
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1.5em 0;
-			position: relative;
-			top: 0.5em;
-		}
+.image.left {
+    float: left;
+    margin: 0 1.5em 1.5em 0;
+    position: relative;
+    top: 0.5em;
+}
 
-		.image.centered {
-			display: block;
-			margin: 0 0 2em 0;
-		}
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+.image.centered img {
+    margin: 0 auto;
+    width: auto;
+}
+
 
 /* List */
 
