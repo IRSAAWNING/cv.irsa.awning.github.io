@@ -2631,21 +2631,27 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
-				padding: 5em 0;
-			}
+#banner {
+    padding: 5em 0;
+    background-image: url('https://github.com/IRSAAWNING/cv.irsa.awning.github.io/blob/main/christopher-burns-8KfCR12oeUM-unsplash.jpg?raw=true'); /* Ganti dengan URL gambar yang Anda inginkan */
+    background-size: cover; /* Menyusun gambar agar menutupi seluruh elemen */
+    background-position: center; /* Menyusun gambar di tengah elemen */
+    background-repeat: no-repeat; /* Mencegah gambar untuk diulang */
+}
 
-				#banner > .container {
-					padding: 0;
-				}
+#banner > .container {
+    padding: 0;
+}
 
-					#banner > .container:before, #banner > .container:after {
-						display: none;
-					}
+#banner > .container:before, #banner > .container:after {
+    display: none;
+}
 
-				#banner p {
-					font-size: 1.25em;
-				}
+#banner p {
+    font-size: 1.25em;
+    color: #fff; /* Sesuaikan warna teks untuk kontras yang baik dengan gambar latar belakang */
+}
+
 
 		/* Features */
 
