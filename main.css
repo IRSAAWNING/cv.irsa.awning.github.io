@@ -1581,6 +1581,37 @@ input, select, textarea {
 				border-left: 0;
 			}
 
+/* Galeri Foto */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Jarak antar gambar */
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 1rem); /* Tiga kolom dengan jarak */
+    box-sizing: border-box;
+    overflow: hidden; /* Menjaga agar gambar tidak meluber */
+}
+
+.gallery-item a {
+    display: block; /* Membuat tautan memuat seluruh area .gallery-item */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menggunakan warna teks yang sama dengan elemen sekitarnya */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+
 /* Actions */
 
 	ul.actions {
